@@ -10,7 +10,7 @@ class MyColors {
   static const Color black54 = Colors.black54;
   static const Color black45 = Colors.black45;
   static const Color black87 = Colors.black87;
-  static const Color blue = Color(0xFF0A65CC);
+  static const Color purple = Color(0xFF8E05C2);
   static const Color purple10 = Color(0xFFD35DFF);
   static const Color footerColor = Color(0xFF520077);
 }

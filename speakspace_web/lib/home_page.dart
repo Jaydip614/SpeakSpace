@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:speakspace/scroll_controller.dart';
-import 'package:speakspace/utils/constants/sizes.dart';
-import 'package:speakspace/website/home.dart';
-import 'package:speakspace/website/services.dart';
-import 'package:speakspace/widgets/nav_bar.dart';
+import 'package:speakspace_web/scroll_controller.dart';
+import 'package:speakspace_web/utils/constants/sizes.dart';
+import 'package:speakspace_web/website/about.dart';
+import 'package:speakspace_web/website/home.dart';
+import 'package:speakspace_web/website/recommendation.dart';
+import 'package:speakspace_web/website/services.dart';
+import 'package:speakspace_web/widgets/nav_bar.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -73,8 +75,12 @@ class _HomePageState extends State<HomePage> {
         children: [
           //Home Section
           WebHomeSection(),
+          //About Us
+          AboutUsSection(),
           //Services
           ServicesSection(key: navBarKeys[1]),
+          //Recommendation
+          NextSessionSection(),
           Container(key: navBarKeys[2], height: 900, color: Colors.blue),
         ],
       );

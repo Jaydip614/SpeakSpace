@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:speakspace/home_page.dart' show HomePage;
+import 'package:speakspace_web/home_page.dart';
 
 void main() {
   runApp(const SpeakSpace());
